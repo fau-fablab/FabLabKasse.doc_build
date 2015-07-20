@@ -1,0 +1,3 @@
+build configuration for generating sphinx docs with our buildserver
+
+output: https://user.fablab.fau.de/~buildserver/FabLabKasse.doc-build/
