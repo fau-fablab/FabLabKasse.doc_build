@@ -14,3 +14,4 @@ default:
 	rsync --delete --recursive FabLabKasse/doc/_build/html/ ./output/
 clean:
 	rm -r output
+	cd FabLabKasse/doc/ && make clean
