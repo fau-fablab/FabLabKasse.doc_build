@@ -13,5 +13,5 @@ default:
 	mkdir -p ./output
 	rsync --delete --recursive FabLabKasse/doc/_build/html/ ./output/
 clean:
-	rm -r output
+	rm -fr output
 	cd FabLabKasse/doc/ && make clean
